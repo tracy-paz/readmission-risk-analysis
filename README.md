@@ -1,31 +1,19 @@
 # Healthcare Readmission Risk Analysis
 
-## Overview
-This project explores factors associated with 30-day hospital readmission and demonstrates an end-to-end analytics workflow focused on data quality, exploratory analysis, and interpretable modeling to support decision-making.
+This project explores factors associated with 30-day hospital readmission using a de-identified healthcare dataset.
 
-## Business Question
-Which patient and encounter-level factors are most associated with 30-day readmission risk, and how can these insights support reporting and operational planning?
+## Objective
+Evaluate patient and encounter-level predictors of readmission risk using logistic regression and ROC-AUC.
 
-## Data
-- De-identified healthcare dataset used for academic analysis
-- Includes demographic, clinical, and utilization-related variables
-- No proprietary or employer data used
-
-## Approach
-1. Data cleaning and validation to ensure consistency and reliability  
-2. Exploratory analysis to identify trends and potential drivers  
-3. Baseline predictive modeling (logistic regression) with emphasis on interpretability  
-4. Evaluation using confusion matrix and ROC-AUC  
-
-## Key Insights
-- Prior utilization and length of stay were stronger predictors than demographics alone  
-- Certain clinical conditions showed elevated readmission risk  
-- Results highlight opportunities for targeted follow-up and reporting improvements  
+## Methods
+- Data preparation and feature selection
+- Exploratory data analysis
+- Logistic regression modeling
+- Model evaluation with ROC-AUC
+- Feature reduction using Recursive Feature Elimination (RFE)
 
 ## Tools
-- SQL
-- Python (pandas, numpy, scikit-learn)
-- Jupyter Notebook
+Python, pandas, numpy, scikit-learn, seaborn, matplotlib
 
 ## Notes
-This project emphasizes clear documentation, cautious interpretation, and data quality practices appropriate for healthcare analytics environments.
+This project uses de-identified data for academic and demonstration purposes.
